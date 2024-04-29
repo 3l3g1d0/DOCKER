@@ -16,7 +16,7 @@ Las variables de entorno predefinidas para la configuración de los servicios de
 
 ## Instalación y Despliegue
 
-1. Descargar el Archivo.tar
+1. Descargar el Archivo.tar en https://grupstucom-my.sharepoint.com/:u:/g/personal/cf2022336_365_stucom_com/EfZnfYA0sylEuBoF_LtsBd4BBpSX2BzMQWR3lxH0U84sLg?e=YHN2rk
 2. docker load -i ruta/a/tu/archivo.tar
 3. docker images
 4. docker run -d --name mi-servidor-correo -p 25:25 -p 143:143 -p 587:587 -p 993:993 -p 995:995 nombre-de-la-imagen:etiqueta
